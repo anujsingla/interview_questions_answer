@@ -11,7 +11,7 @@ React provides serveral methods for different stages and we can perform operatio
 as per requirement.
 
 There are four phrases:
-Mounting, updating and unmounting, Error Handling.
+Mounting, updating, unmounting and Error Handling.
 
 Mouting - Adding nodes to the DOM.
 Updating - Altering existing nodes in the DOM.
@@ -41,7 +41,8 @@ It is not compulsory component should go on every phrase. It is depend
 on the component.
 
 
-Reference: 
+Reference:
+https://youtu.be/l3NNSEuh0BE
 https://blog.logrocket.com/react-lifecycle-methods-tutorial-examples/
 https://iq.js.org/questions/react/what-are-the-different-phases-of-component-lifecycle
 
@@ -59,6 +60,7 @@ we can log information in the server like call stack.
 
 There are different method for that:
 Most useful method for class component:
+
 constructor() - It is first method called as the component is brough to life.
 It is called before the component is mounted to the DOM. We initialize state
 or bind event handlers methods.
@@ -88,7 +90,7 @@ DOM In short - after render method this method will called.
 You can fetch the data, update state or modify DOM.
 
 componentDidMount() {
-  this.fetchData() // 
+  this.fetchData() 
 }
 
 Updating lifecycle method:
@@ -188,6 +190,16 @@ introducing any uncessary markup in the rendered HTML.
 We should use this when we need it.
 As per documentation, Fragement only accept key attribute.
 
+Before fragement example:
+
+<div>
+  <Child1></Child1>
+  <Child2></Child2>
+  <Child3></Child3>
+</div>
+
+After fragement example:
+
 <React.Fragment>
   <Child1></Child1>
   <Child2></Child2>
@@ -200,6 +212,7 @@ Shortend
   <Child2></Child2>
   <Child3></Child3>
 </>
+
 <dl>
   {items.map(item => (
           <React.Fragment key={item.id}>
@@ -240,7 +253,7 @@ class ErrorBoundary extends React.Component {
 
   static getDerivedStateFromError(error) {
      return { hasError: true }; // update the state
-   }
+  }
 
   render() {
     if (this.state.hasError) {
@@ -255,7 +268,9 @@ How to use it:
 <ErrorBoundary>
   <ParentComponent>
     <Child1></Child1>
-    <Child2></Child2>
+    <ErrorBoundary>
+      <Child2></Child2>
+    </ErrorBoundary>
   </ParentComponent>
 </ErrorBoundary>
 
@@ -263,6 +278,7 @@ It will show error if there are any javascript error in the Parent or child
 component.
 
 Reference:
+https://youtu.be/uMbihV3j9OI
 https://reactjs.org/docs/error-boundaries.html#introducing-error-boundaries
 
 Question: What is react-dom and ReactDOM object method ReactDOM.render()?
