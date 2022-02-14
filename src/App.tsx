@@ -1,7 +1,5 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import { ReactFragement } from "./ReactFragement";
+import { ReactFragement } from "./Examples/ReactFragement";
 
 function App() {
   return (
