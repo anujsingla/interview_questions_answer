@@ -1,4 +1,6 @@
 /*
+Content: Anuj Singla
+
 https://github.com/sudheerj/reactjs-interview-questions/blob/master/README.md#what-is-react
 
 React Interview Questions and answers
