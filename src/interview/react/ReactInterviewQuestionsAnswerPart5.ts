@@ -114,10 +114,11 @@ const obj1 = {
 console.log("test", deepCompare(obj1, obj2));
 
 Reference:
+https://youtu.be/CrG4txLsZ_A
 https://codesandbox.io/s/gallant-dust-xzc6kd?file=/src/index.ts
 https://dmitripavlutin.com/how-to-compare-objects-in-javascript/
 
-Question: What is dependencies, devdependencies, peerdependencies?
+Question: What is dependencies, devdependencies, peerdependencies in package.json?
 
 Answer: 
 Every web application app have a package.json file. It contains all the relevant
@@ -165,11 +166,22 @@ https://github.com/facebook/react/blob/main/packages/react-dom/package.json
 https://github.com/facebook/react/blob/main/packages/jest-react/package.json
 
 Reference:
+https://youtu.be/jWMY4kwa1UI
 https://nodejs.org/en/blog/npm/peer-dependencies/
 
-Question: How react useEffect compare dependencies array values?
+Question: How react useEffect hook compare dependencies array values?
 
-Answer: 
+Answer: React uses "Object.is()" to compare dependencies array. React do
+a comparison between each of the values to determine whether effect callback
+should be called.
+If you we provide an new object on every render, even if none of the
+properties changed, effect callback called everytime like props as a object
+
+  useEffect(() => {
+    console.log("props useEffect called Child component", props.userDetails);
+  }, [props.userDetails]);
+
+This useEffect will call everytime, if parent component rerender.
 
 */
 
