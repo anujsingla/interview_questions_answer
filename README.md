@@ -1,3 +1,8 @@
+# Youtube playlist for learn React, Javascript, Interview question and answer, Remix framework, HTML, Typescript
+
+Frontend Interview Questions and Answer
+[Frontend Interview Questions and Answer](https://www.youtube.com/playlist?list=PLEtjGa9VEukMRyitRx0nitoCD8u2XEYiz).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

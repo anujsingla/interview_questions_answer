@@ -118,7 +118,7 @@ https://youtu.be/CrG4txLsZ_A
 https://codesandbox.io/s/gallant-dust-xzc6kd?file=/src/index.ts
 https://dmitripavlutin.com/how-to-compare-objects-in-javascript/
 
-Question: What is dependencies, devdependencies, peerdependencies in package.json?
+Question: What are dependencies, devdependencies, peerdependencies in package.json?
 
 Answer: 
 Every web application app have a package.json file. It contains all the relevant
