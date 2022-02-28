@@ -1,7 +1,25 @@
 # Youtube playlist for learn React, Javascript, Interview question and answer, Remix framework, HTML, Typescript
 
 Frontend Interview Questions and Answer
-[Frontend Interview Questions and Answer](https://www.youtube.com/playlist?list=PLEtjGa9VEukMRyitRx0nitoCD8u2XEYiz).
+[Frontend Interview Questions and Answer](https://www.youtube.com/playlist?list=PLEtjGa9VEukMRyitRx0nitoCD8u2XEYiz)
+
+React Tutorial with Typescript in Hindi
+[React Tutorial with Typescript in Hindi](https://www.youtube.com/playlist?list=PLEtjGa9VEukNKslFyRlhODXXuKgRnvVyM)
+
+Typescript Tutorial in Hindi
+[Typescript Tutorial in Hindi](https://www.youtube.com/playlist?list=PLEtjGa9VEukPUgE2ThFAjqff91Wo1GA5e)
+
+JavaScript Tutorial in Hindi
+[JavaScript Tutorial in Hindi](https://www.youtube.com/playlist?list=PLEtjGa9VEukMzD2VsGih5APdqRIafLb1q)
+
+Remix run React framework Tutorial in Hindi
+[Remix run React framework Tutorial in Hindi](https://www.youtube.com/playlist?list=PLEtjGa9VEukMKVhD0GKHthRmwVMFWjaeW)
+
+NPM
+[NPM](https://www.youtube.com/playlist?list=PLEtjGa9VEukO4Ud2SGoHhuFYCPfDAzFjd)
+
+HTML Tutorial for Beginners to advance
+[HTML Tutorial for Beginners to advance](https://www.youtube.com/playlist?list=PLEtjGa9VEukMJvP4Z8O01LvkCB7-1myXu)
 
 # Getting Started with Create React App
 
