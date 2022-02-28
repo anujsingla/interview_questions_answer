@@ -1,4 +1,4 @@
-# Youtube playlist for learn React, Javascript, Interview question and answer, Remix framework, HTML, Typescript
+# Anuj Singla Youtube playlist to learn React, Javascript, Interview question and answer, Remix framework, HTML, Typescript, NPM
 
 Frontend Interview Questions and Answer
 [Frontend Interview Questions and Answer](https://www.youtube.com/playlist?list=PLEtjGa9VEukMRyitRx0nitoCD8u2XEYiz)
