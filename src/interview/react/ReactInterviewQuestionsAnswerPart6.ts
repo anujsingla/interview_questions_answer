@@ -36,10 +36,10 @@ variable.
 
 We will check practically with different methods
 - spread operator (...)
-- slice method - used for array.
 - Object.assign()
 - Array.from() - used for array.
 - concat() - used for array.
+- slice method - used for array.
 
 deep copy - we copy first and nested object inside object.
 It is working fine for any types of objects.
@@ -51,14 +51,9 @@ from the original variable.
 - manual (custom) method for deep copy
 
 References:
-https://anuradha.hashnode.dev/shallow-vs-deep-copy-in-javascript
-https://javascript.plainenglish.io/how-to-deep-copy-objects-and-arrays-in-javascript-7c911359b089
-https://github.com/davidmarkclements/rfdc/blob/master/index.js
-https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript
-
-https://codesandbox.io/s/gallant-dust-xzc6kd?file=/src/shallowdeepcopy.ts:1184-1819
-https://dev.to/shevchenkonik/react-typescript-mobx-4mei
-https://codesandbox.io/s/mobx-react-typescript-example-7qxp1?file=/src/components/ModalNewTodo/index.tsx
+https://codesandbox.io/s/gallant-dust-xzc6kd?file=/src/shallowdeepcopy.ts
+https://github.com/anujsingla/interview_questions_answer/blob/main/src/utils/copyObjectUtils.ts
+https://lodash.com/docs/4.17.15#cloneDeep
 
 Question: What is state management?
 
@@ -109,6 +104,7 @@ We can trigger action on user events, backend data pushes, scheduled events.
 help to render the component or update the UI if state
 changes.
 
+https://mobx.js.org/README.html
 https://github.com/winterbe/mobx-logger
 
 */
